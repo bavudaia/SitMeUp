@@ -1,0 +1,39 @@
+// Here you can add other styles
+.vertical-divider{
+    //margin-left:5px;
+    //margin-right:5px;
+    //width:1px;
+    //height:100%;
+    border-right:1px solid gray;
+
+   }
+
+ header {
+     z-index : 1;
+     background-color: white;
+ } 
+ 
+//  #line-chart{
+//      overflow : scroll;
+//  }
+
+.btn-outline-white:not([disabled]):not(.disabled).active{
+    color:$cyan;
+    background-color:white;
+    font-weight: bold;
+    box-shadow: 0 0 0 0.2em $cyan;
+    //border:3px solid $cyan;
+}
+
+.chart-title{
+    margin-bottom: 30px;
+    margin-top:15px;
+}
+
+// .btn-outline-white:hover{
+//     color:$cyan;
+// }
+
+.hide-link{
+    display:none;
+}
